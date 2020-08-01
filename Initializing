@@ -4,3 +4,6 @@ pd.plotting.register_matplotlib_converters()
 import matplotlib.pyplot as plt
 # %matplotlib inline (used for notebooks like jupyter to render graph)
 import seaborn as sns
+
+filePath = ""
+data = pd.read_excel(filePath) #change the "read_excel portion according to file type, e.g. read_csv for csv files"
