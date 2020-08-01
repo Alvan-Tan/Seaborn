@@ -1,0 +1,6 @@
+#Requires the installation of pandas, seaborn, xlrd packages
+import pandas as pd
+pd.plotting.register_matplotlib_converters()
+import matplotlib.pyplot as plt
+# %matplotlib inline (used for notebooks like jupyter to render graph)
+import seaborn as sns
